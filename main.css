@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav.container {
+  background-color: #f2fcfc;
+  color: #0245a3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+nav.container .container_logo {
+  height: 62.76px;
+  width: 328px;
+}
+nav.container .navbar {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav.container .navbar_links {
+  width: 100%;
+  height: 36px;
+  list-style: none;
+  display: flex;
+}
+nav.container .navbar_links-item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_links-item a {
+  text-decoration: none;
+}
+
+.banner {
+  background: url("../assets/images/hero.png") no-repeat 600px 145px,
+    url(../assets/images/Ellipse1.png) no-repeat left 20px,
+    url(../assets/images/Ellipse2.png) no-repeat right -20px,
+    url(../assets/images/Ellipse3.png) no-repeat left 500px,
+    url(../assets/images/Ellipse4.png) no-repeat right 450px;
+  background-size: 600px, auto, auto, auto, auto;
+}
+
+.banner-text {
+  padding: 12rem 10rem;
+  width: 650px;
+  text-align: center;
+}
+.banner .banner-text p {
+  margin: 0 auto;
+  font-size: 2.5em;
+  font-weight: 100;
+  width: fit-content;
+}
+.banner .banner-text h1 {
+  margin: 0 auto;
+  width: fit-content;
+  height: 250px;
+  text-align: center;
+  font-size: 4.5rem;
+  background: url(../assets/images/Vector2.png) no-repeat 15px 190px;
+  background-size: auto;
+}
+.banner .banner-text span {
+  display: block;
+}
+.banner-text .banner-links a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+.banner-text .banner-links {
+  margin: 20px;
+}
+.banner-text .banner-links .learn-more button {
+  background: #0245a3;
+  border-radius: 24px;
+  color: #fff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+.banner-text .banner-links .sign-up button {
+  border: 3px solid #0245a3;
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: #0245a3;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #fff;
+  outline: none;
+}
+
+.about {
+  background: url(../assets/images/Union.png) no-repeat;
+  background-size: cover;
+  padding: 10rem 5rem;
+}
+.about-flex {
+  display: flex;
+  height: 550px;
+  padding: 1rem 5rem;
+  background: url(../assets/images/Rectangle20.png) no-repeat center right;
+  background-size: 50%;
+}
+.about h2 {
+  font-family: Poppins;
+  margin-left: 85px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 90%;
+  color: #0245a3;
+}
+.about-flex div {
+  margin: auto 0;
+  width: 550px;
+  height: 450px;
+}
+.about-flex .about-text {
+  background-color: #fff;
+  padding: 2.5rem;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about-flex .about-text p {
+  margin: auto 0 25px;
+}
+.about-flex .about-img img {
+  width: 550px;
+  height: 450px;
+  display: inline-block;
+}
+.programs {
+  margin-top: -100px;
+  padding: 8rem 5rem;
+  background: url(../assets/images/Vector.png) no-repeat;
+  background-size: auto;
+}
+
+.programs h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0245a3;
+  margin: 0 0 1em 6px;
+}
+.programs-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.programs-flex .programs-content {
+  background-color: #bdf1f6;
+  border-radius: 12px;
+  width: 350px;
+  height: 320px;
+  padding: 1rem;
+  text-align: center;
+}
+.programs-flex .programs-content div {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  padding: 4rem;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.programs-flex .programs-content div img {
+  width: 105px;
+  height: 105px;
+}
+.programs-flex .programs-content p {
+  background-color: #fff;
+  color: #0245a3;
+  font-size: 21px;
+  margin: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 8px 4px;
+}
+
+.community {
+  display: flex;
+  margin-top: -100px;
+  padding: 8rem 5rem 0 5rem;
+  background: url(../assets/images/Union.png) no-repeat;
+  max-width: 100%;
+}
+
+.community-text {
+  max-width: 25%;
+  margin-top: 24px;
+}
+
+.community h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0245a3;
+  margin-left: 6px;
+}
+
+.community p {
+  margin-top: 5px;
+  font-weight: 300;
+  margin-left: 6px;
+}
