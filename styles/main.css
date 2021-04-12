@@ -128,10 +128,8 @@ nav.container .navbar_links-item {
 .about-flex .about-text p{
   margin: auto 0 25px;
 }
-.about-flex .about-img{
-  height: 500px;
-}
 .about-flex .about-img img{
-  margin: auto 0;
+  width: 500px;
+  height: 400px;
   display: inline-block;
 }
