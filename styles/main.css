@@ -221,3 +221,7 @@ nav.container .navbar_links-item {
   font-weight: 300;
   margin-left: 6px;
 }
+
+button:hover {
+  cursor: pointer;
+}
