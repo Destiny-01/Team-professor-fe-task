@@ -41,4 +41,7 @@ nav.container .navbar_links-item {
   align-items: center;
 }
 
+.navbar_links-item a {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
