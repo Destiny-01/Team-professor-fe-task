@@ -149,10 +149,17 @@ nav.container .navbar_links-item {
   display: inline-block;
 }
 .programs {
-  margin-top: -95px;
-  padding: 15rem 5rem;
-  background: url(/Team-professor-fe-task/assets/images/Vector.png) no-repeat;
+  margin-top: -100px;
+  padding: 8rem 5rem;
+  background: url(../assets/images/Vector.png) no-repeat;
   background-size: auto;
+}
+
+.programs h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #0245a3;
+  margin: 0 0 1em 6px;
 }
 .programs-flex {
   display: flex;
