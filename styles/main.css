@@ -143,10 +143,48 @@ nav.container .navbar_links-item {
 .about-flex .about-text p {
   margin: auto 0 25px;
 }
-.about-flex .about-img {
-}
 .about-flex .about-img img {
   width: 550px;
   height: 450px;
   display: inline-block;
+}
+.programs {
+  margin-top: -95px;
+  padding: 15rem 5rem;
+  background: url(/Team-professor-fe-task/assets/images/Vector.png) no-repeat;
+  background-size: auto;
+}
+.programs-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.programs-flex .programs-content {
+  background-color: #bdf1f6;
+  border-radius: 12px;
+  width: 350px;
+  height: 320px;
+  padding: 1rem;
+  text-align: center;
+}
+.programs-flex .programs-content div {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  padding: 4rem;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.programs-flex .programs-content div img {
+  width: 105px;
+  height: 105px;
+}
+.programs-flex .programs-content p {
+  background-color: #fff;
+  color: #0245a3;
+  font-size: 21px;
+  margin: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 8px 4px;
 }
