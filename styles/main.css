@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;;
+}
 
 nav.container {
   background-color: #F2FCFC;
@@ -44,4 +48,90 @@ nav.container .navbar_links-item {
 .navbar_links-item a {
   text-decoration: none;
 }
-/*# sourceMappingURL=main.css.map */
+
+.banner{
+  background: url("/Team-professor-fe-task/assets/images/example-9\ \(1\)\ 1.png") no-repeat 600px 145px,
+  url(/Team-professor-fe-task/assets/images/Ellipse\ 1.png) no-repeat left 20px,
+  url(/Team-professor-fe-task/assets/images/Ellipse\ 2.png) no-repeat right -20px,
+  url(/Team-professor-fe-task/assets/images/Ellipse\ 3.png) no-repeat left 500px,
+  url(/Team-professor-fe-task/assets/images/Ellipse\ 4.png) no-repeat right 450px;
+  background-size: 500px, auto, auto, auto, auto;
+}
+
+.banner-text{
+  padding: 12rem 10rem;
+  width: 650px;
+  text-align: center;
+}
+.banner .banner-text p{
+  margin: 0 auto;
+  font-size: 2.5em;
+  font-weight: 100;
+  width: fit-content;
+}
+.banner .banner-text h1{
+  margin: 0 auto;
+  width: fit-content;
+  height: 250px;
+  text-align: center;
+  font-size: 4.5rem;
+  background:url(/Team-professor-fe-task/assets/images/Vector\ 2.png) no-repeat  15px 190px;
+  background-size: auto;
+}
+.banner .banner-text span{
+  display: block;
+}
+.banner-text .banner-links a{
+  text-decoration: none;
+  margin: 0 5px;
+}
+.banner-text .banner-links{
+  margin: 20px;
+}
+.banner-text .banner-links .learn-more button{
+  background: #0245A3;
+  border-radius: 24px;
+  color: #fff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+.banner-text .banner-links .sign-up button{
+  border: 3px solid #0245A3;
+  box-sizing: border-box;
+  border-radius: 24px;
+  color: #0245A3;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #fff;
+  outline: none;
+}
+
+.about{
+  background: url(/Team-professor-fe-task/assets/images/Union.png) no-repeat;
+  background-size: cover;
+  padding: 10rem 5rem;
+}
+.about-flex{
+  display: flex;
+}
+.about-flex div{
+  width: 500px;
+  height: 400px;
+}
+.about-flex .about-text{
+  background-color: #fff;
+  padding: 2rem;
+  font-size: 14px;
+}
+.about-flex .about-text p{
+  margin: auto 0 25px;
+}
+.about-flex .about-img{
+  height: 500px;
+}
+.about-flex .about-img img{
+  margin: auto 0;
+  display: inline-block;
+}
