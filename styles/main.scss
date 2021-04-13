@@ -1,50 +1,115 @@
 *,
 *::before,
-*::after{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-nav.container{
-    background-color:#F2FCFC ;
-    color: #0245A3;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    width: 100%;
+nav.container {
+  background-color: #f2fcfc;
+  color: #0245a3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
 
-    .container_logo{
-        height: 62.76px;
+  .container_logo {
+    height: 62.76px;
     width: 328px;
+    img {
+      width: 100%;
+      height: 100%;
     }
+  }
 
-    .navbar{
-        width:500px;
-        height:100%;
+  .navbar {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -5rem;
+
+    &_links {
+      width: 100%;
+      height: 36px;
+      list-style: none;
+      display: flex;
+
+      &-item {
+        height: 100%;
+        width: 100%;
+        // margin-left: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
-
-
-        &_links{
-            width: 100%;
-            height: 36px;
-            list-style: none;
-            display: flex;
-
-
-        &-item{
-            height:100%;
-            width: 100%;
-        // margin-left: 1rem;
-    display: flex;
-        justify-content: center;
-        align-items: center;
+        a {
+          text-decoration: none;
         }
-            
-        }
+      }
     }
+  }
+
+  .social_icon_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+    padding: 0.4rem;
+  }
+
+  .hamburger_menu {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    & {
+      justify-content: space-between;
+      .container_logo {
+        height: 32.76px;
+        width: 158px;
+        margin-left: 1rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .navbar {
+        display: none;
+      }
+      .hamburger_menu {
+        display: block;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 874px) {
+    & {
+      justify-content: space-between;
+      .container_logo {
+        height: 42.76px;
+        width: 198px;
+        margin-left: 1rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .navbar {
+        width: 400px;
+        height: 100%;
+        margin-right: 1rem;
+      }
+
+      .social_icon_container {
+        display: none;
+      }
+    }
+  }
 }
